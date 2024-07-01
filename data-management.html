@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Principal</title>
+    <link rel="stylesheet" href="data-style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="containerr">
+      <h1>Base de tutores</h1>
+      <div>
+        <button class="btn btn-primary" onclick="window.open('alta-tutor.html', '_blank');">Crear</button>
+        <button onclick="modificar_Tutor()" type="button" class="btn btn-warning">Modificar</button>
+        <button onclick="baja_tutor()" class="btn btn-danger">Eliminar</button>
+      </div>
+    </div>
+    
+    <table id="miTabla" class="table tabla table-hover">
+        <thead>
+          <tr>
+            <th scope="col"></th>
+            <th scope="col">Nombre Completo</th>
+            <th scope="col">Tipo</th>
+          </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+
+    <script src="./ver_tutor.js"></script>
+    <script src="./abm_tutor.js"></script>
+      
+</body>
+</html>

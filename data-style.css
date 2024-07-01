@@ -1,0 +1,29 @@
+    body {
+        background-color: #212121 ;
+        font-family: "Roboto", sans-serif;
+    }
+    
+    .containerr {
+        background-color: rgb(94, 194, 252);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+        padding: 10px;
+
+    }
+
+
+    .tabla {
+        background-color: #212121;
+    }
+
+    table:hover {
+        transition: 300ms;
+        border-bottom:  rgb(94, 194, 252) ;
+    }
+
+  
+
+
+    
